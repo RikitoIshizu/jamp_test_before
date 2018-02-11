@@ -64,54 +64,58 @@
 			<p>2.コンテンツをどう考えるか！？</p>
 			<p>3.運営をどう考えるか！？</p>
 		</div>
-		<p class="title">フォーム</p>
-		<form action="#">
-			<table>
-				<tbody id="table_form" class="clearfix">
-					<tr>
-						<th class="item">名前</th>
-						<th class="input_data"><input name="name" type="text"></th>
-					</tr>
-					<tr>
-						<th class="item">年齢</th>
-						<th class="input_data">
-							<select name="age">
-								<option value=20代>20代</option>
-								<option value=30代>30代</option>
-								<option value=40代>40代</option>
-								<option value=50代>50代</option>
-							</select>
-						</th>
-					</tr>
-					<tr>
-						<th class="item">性別</th>
-						<th class="input_data">
-							<input type="radio" name="sex" value="man">男性
-							<input type="radio" name="sex" value="woman">女性
-						</th>
-					</tr>
-					<tr>
-						<th class="item">お問い合わせ項目</th>
-						<th class="input_data">
-							<input type="checkbox" name="sex" value="man">無料相談
-							<input type="checkbox" name="sex" value="woman">資料請求
-						</th>
-					</tr>
-					<tr>
-						<th class="item">内容</th>
-						<th class="input_data text_area" id="ta">
-							<textarea name="contents" rows="12" cols="80"></textarea>
-						</th>
-					</tr>
-				</tbody>
-			</table>
+		<div id="table_form">
+			<p class="title">フォーム</p>
+			<form action="#">
+				<table>
+					<tbody id="table_design" class="clearfix">
+						<tr>
+							<th class="item">名前</th>
+							<th class="input_data"><input name="name" type="text"></th>
+						</tr>
+						<tr>
+							<th class="item">年齢</th>
+							<th class="input_data">
+								<select name="age">
+									<option value=20代>20代</option>
+									<option value=30代>30代</option>
+									<option value=40代>40代</option>
+									<option value=50代>50代</option>
+								</select>
+							</th>
+						</tr>
+						<tr>
+							<th class="item">性別</th>
+							<th class="input_data">
+								<input type="radio" name="sex" value="man">男性
+								<input type="radio" name="sex" value="woman">女性
+							</th>
+						</tr>
+						<tr>
+							<th class="item">お問い合わせ項目</th>
+							<th class="input_data">
+								<input type="checkbox" name="sex" value="man">無料相談
+								<input type="checkbox" name="sex" value="woman">資料請求
+							</th>
+						</tr>
+						<tr>
+							<th class="item">内容</th>
+							<th class="input_data text_area" id="ta">
+								<textarea name="contents" rows="12" cols="80"></textarea>
+							</th>
+						</tr>
+					</tbody>
+				</table>
 
-			<div id="btn">
-				<input id="submit_button" type="submit" name="submit" value="投稿する">
-			</div>
+				<div id="btn">
+					<input id="submit_button" type="submit" name="submit" value="投稿する">
+				</div>
 
 
-		</form>
+			</form>
+		</div>
+
+
 	</div>
 	<div id="side_column">
 		<img src="images/bannr.gif" alt="バナー" class="mt5">
